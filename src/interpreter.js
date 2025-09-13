@@ -8,7 +8,7 @@ let a=10
 let b=20.5
 let sum=a+b
 show "Sum is ='sum'"
-show 'a*b'`,
+show "Multiplication is ='a*b'"`
   "02_loops.aim": `// 02_loops.aim
 for i=1 to 5
   show "For loop i='i'"
