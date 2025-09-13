@@ -1,0 +1,26 @@
+:root{
+  --bg:#0f1720;
+  --panel:#0b1220;
+  --accent:#0ea5e9;
+  --muted:#94a3b8;
+  --text:#e6eef6;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial}
+body{background:linear-gradient(180deg,#071020 0%,var(--bg) 100%);color:var(--text);display:flex;flex-direction:column}
+header{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;border-bottom:1px solid rgba(255,255,255,0.03)}
+header h1{margin:0;font-size:18px}
+.controls{display:flex;gap:8px;align-items:center}
+.controls button, .controls select{background:var(--accent);color:#012;border:none;padding:8px 10px;border-radius:6px;cursor:pointer;font-weight:600}
+.controls select{background:#052233;color:var(--text);padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.03)}
+.controls input[type=file]{color:var(--muted)}
+main{display:flex;gap:12px;padding:12px;flex:1}
+section{background:var(--panel);border-radius:10px;padding:10px;display:flex;flex-direction:column;min-height:0}
+#left{flex:1;min-width:300px}
+#right{flex:1;min-width:300px;max-width:640px}
+.panel-title{font-size:13px;color:var(--muted);margin-bottom:8px;display:block}
+#editor{flex:1;width:100%;background:#03131b;color:var(--text);border-radius:8px;padding:12px;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;font-size:13px;border:1px solid rgba(255,255,255,0.03);resize:vertical;min-height:360px}
+#output{flex:1;background:#021018;color:#b7f7d3;padding:12px;border-radius:8px;overflow:auto;border:1px solid rgba(255,255,255,0.03);min-height:200px}
+.status{margin-top:8px;color:var(--muted);font-size:13px}
+footer{padding:8px 16px;text-align:center;color:var(--muted);font-size:13px;border-top:1px solid rgba(255,255,255,0.02)}
+@media(max-width:900px){main{flex-direction:column} #right{max-width:none}}

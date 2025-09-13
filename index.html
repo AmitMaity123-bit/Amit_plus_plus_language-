@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amit++ language — Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Amit++ language — Playground</h1>
+    <div class="controls">
+      <button id="runBtn">▶ Run</button>
+      <select id="examplesSelect">
+        <option value="">— Load example —</option>
+      </select>
+      <input type="file" id="fileInput" accept=".aim" />
+      <button id="downloadBtn">⬇ Download .aim</button>
+      <button id="clearBtn">Clear</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="left">
+      <label class="panel-title">Editor</label>
+      <textarea id="editor" spellcheck="false"></textarea>
+    </section>
+
+    <section id="right">
+      <label class="panel-title">Output</label>
+      <pre id="output"></pre>
+      <div class="status" id="status"></div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Made with ❤️ — Amit++ language. Saved to LocalStorage automatically.</small>
+  </footer>
+
+  <script src="src/interpreter.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
