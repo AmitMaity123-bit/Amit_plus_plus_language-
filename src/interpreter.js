@@ -3,33 +3,33 @@
 
 window.AMIT_EXAMPLES = {
   "01_basic_math.aim": `// 01_basic_math.aim
-// ভেরিয়েবল এবং গণিত অপারেশন
+// variables and mathematical logic
 let a=10
-let b=20
+let b=20.5
 let sum=a+b
-show "যোগফল='sum'"
+show "Sum is ='sum'"
 show 'a*b'`,
   "02_loops.aim": `// 02_loops.aim
 for i=1 to 5
-  show "For লুপ i='i'"
+  show "For loop i='i'"
 end
 
 let c=1
 while c<=3
-  show "While লুপ c='c'"
+  show "While loop c='c'"
   let c=c+1
 end`,
   "03_conditions.aim": `// 03_conditions.aim
 let x=8
 let y=5
 if x>y
-  show "x বড়"
+  show "x big"
 else
-  show "y বড়"
+  show "y big"
 end`,
   "04_functions.aim": `// 04_functions.aim
 def greet
-  show "হ্যালো from function"
+  show "Hello👋 from function"
 end
 call greet`,
   "05_arrays.aim": `// 05_arrays.aim
