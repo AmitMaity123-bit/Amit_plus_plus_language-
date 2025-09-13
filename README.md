@@ -1,11 +1,11 @@
-# Amit++ language Playground
+# Amit++ language (coding Playground create by Amit Kumar Maity)
 
-This repository contains a lightweight web-based playground for the Amit++ language (a toy language you defined).
+This repository contains a lightweight web-based playground for the Amit++ language (coding Playground create by me).
 
 ## Files
-- `index.html` — playground UI (editor + run + output)
-- `style.css` — styles
-- `script.js` — UI glue (loads interpreter and handles buttons)
+- `index.html` — Coding playground HTML code (editor + run + output)
+- `style.css` — Coding playground CSS code (styles)
+- `script.js` — Coding playground Javascript code
 - `src/interpreter.js` — Amit++ interpreter core + examples
 - `examples/*.aim` — example AIM programs
 
@@ -13,8 +13,6 @@ This repository contains a lightweight web-based playground for the Amit++ langu
 1. Unzip the folder.
 2. Open `index.html` in your browser. (No server required.)
 
-## Deploy
-- Upload the folder to GitHub and enable Pages (main branch, root)
-- Or drag & drop the folder to Netlify/Vercel
+## Write code like a game and enjoy it.🥳🥳🥳 
 
 Enjoy!
